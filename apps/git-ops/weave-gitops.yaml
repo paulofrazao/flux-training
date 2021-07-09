@@ -26,9 +26,9 @@ spec:
       containers:
       - name: weave-gitops
         #image: paulofrazao/weaveworks-gitops:0.1
-        #image: paulofrazao/launchpad:latest
+        image: paulofrazao/launchpad:latest
         #image: paulofrazao/k8s-lb-scaling:yellow
-        image: paulofrazao/k8s-lb-scaling:red
+        #image: paulofrazao/k8s-lb-scaling:red
         resources:
           requests:
             cpu: 100m
