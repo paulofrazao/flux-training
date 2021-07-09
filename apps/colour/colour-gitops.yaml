@@ -27,8 +27,9 @@ spec:
       - name: colour-gitops
         #image: paulofrazao/weaveworks-gitops:0.1
         #image: paulofrazao/launchpad:latest
-        image: paulofrazao/k8s-lb-scaling:yellow
+        #image: paulofrazao/k8s-lb-scaling:yellow
         #image: paulofrazao/k8s-lb-scaling:red
+        image: paulofrazao/suse-demo-yello:0.1.0
         resources:
           requests:
             cpu: 100m
