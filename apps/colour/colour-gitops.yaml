@@ -29,7 +29,7 @@ spec:
         #image: paulofrazao/launchpad:latest
         #image: paulofrazao/k8s-lb-scaling:yellow
         #image: paulofrazao/k8s-lb-scaling:red
-        image: paulofrazao/suse-demo-yello:0.1.0
+        image: paulofrazao/suse-demo-yellow:0.1.0
         resources:
           requests:
             cpu: 100m
