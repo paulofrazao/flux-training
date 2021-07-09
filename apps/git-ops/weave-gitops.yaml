@@ -26,8 +26,8 @@ spec:
       containers:
       - name: weave-gitops
         #image: paulofrazao/weaveworks-gitops:0.1
-        #image: paulofrazao/launchpad:latest
-        image: paulofrazao/k8s-lb-scaling:yellow
+        image: paulofrazao/launchpad:latest
+        #image: paulofrazao/k8s-lb-scaling:yellow
         #image: paulofrazao/k8s-lb-scaling:red
         resources:
           requests:
@@ -40,7 +40,7 @@ spec:
         - name: GET_HOSTS_FROM
           value: dns
         ports:
-        - containerPort: 8080
+        - containerPort: 80
 ---
 apiVersion: v1
 kind: Service
