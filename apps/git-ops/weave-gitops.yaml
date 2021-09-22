@@ -71,10 +71,10 @@ metadata:
 spec:
   tls:
   - hosts:
-    - weave-gitops.suse.studio
-    secretName: weave-gitops-suse-studio-crt
+    - weave-gitops.weaveworks.tech
+    secretName: weave-gitops-weaveworks.tech-crt
   rules:
-  - host: weave-gitops.suse.studio
+  - host: weave-gitops.weaveworks.tech
     http:
       paths:
       - path: /
