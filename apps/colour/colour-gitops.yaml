@@ -72,10 +72,10 @@ metadata:
 spec:
   tls:
   - hosts:
-    - colour.suse.studio
-    secretName: colour-suse-studio-crt
+    - colour.weaveworks.tech
+    secretName: colour-weaveworks-tech-crt
   rules:
-  - host: colour.suse.studio
+  - host: colour.weaveworks.tech
     http:
       paths:
       - path: /
